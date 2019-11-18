@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/snowwhite"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <TextView
+            android:id="@+id/tvday"
+            android:textAllCaps="true"
+            android:textColor="@color/grey"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:text=""
+            android:layout_weight="0.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <View
+            android:background="@color/lightgrey"
+            android:layout_width="0.3dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/tvdebit"
+            android:textAllCaps="true"
+            android:textColor="@color/grey"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:text=""
+            android:layout_weight="0.4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <View
+            android:background="@color/lightgrey"
+            android:layout_width="0.3dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/tvcredit"
+            android:textAllCaps="true"
+            android:textColor="@color/grey"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:text=""
+            android:layout_weight="0.4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>

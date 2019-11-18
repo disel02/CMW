@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <TextView
+                    android:id="@+id/tvdate"
+                    android:textColor="@color/darkgrey"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:text="today"
+                    android:textAllCaps="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/btnchange"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/snowgrey2"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="change"
+                    android:textColor="@color/snowwhite" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/new1passWrapper"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:isScrollContainer="false"
+                    android:inputType="number"
+                    android:id="@+id/etmoney"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Rs."/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/oldpassWrapper"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0.7"
+                android:layout_width="0dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:isScrollContainer="false"
+                    android:inputType="text"
+                    android:id="@+id/etreason"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Reason"/>
+            </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rgtype"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+                <RadioButton android:id="@+id/rbdebit"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Debit"
+                    android:onClick="onRadioButtonClicked"/>
+                <RadioButton android:id="@+id/rbcredit"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Credit"
+                    android:onClick="onRadioButtonClicked"/>
+            </RadioGroup>
+            <Button
+                android:layout_marginTop="15dp"
+                android:textColor="@color/white"
+                android:background="@drawable/login_button"
+                android:id="@+id/btnadd"
+                android:text="Add  Record"
+                android:layout_width="match_parent"
+                android:layout_height="38dp" />
+        </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        />
+</RelativeLayout>

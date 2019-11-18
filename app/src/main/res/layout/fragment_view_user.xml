@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp">
+
+                <TextView
+                    style="@style/view_profile"
+                    android:text="Username :" />
+
+                <TextView
+                    android:id="@+id/tvusername"
+                    style="@style/view_profile_text"
+                    android:text="" />
+
+                <TextView
+                    style="@style/view_profile"
+                    android:text="Password :" />
+
+                <TextView
+                    android:id="@+id/tvpassword"
+                    style="@style/view_profile_text"
+                    android:text="" />
+
+                <TextView
+                    style="@style/view_profile"
+                    android:text="Phone :" />
+
+                <TextView
+                    android:id="@+id/tvphone"
+                    style="@style/view_profile_text"
+                    android:text="" />
+
+                <TextView
+                    style="@style/view_profile"
+                    android:text="Address :" />
+
+                <TextView
+                    android:id="@+id/tvaddress"
+                    style="@style/view_profile_text"
+                    android:text="" />
+
+                <TextView
+                    style="@style/view_profile"
+                    android:text="Blood :" />
+
+                <TextView
+                    android:id="@+id/tvblood"
+                    style="@style/view_profile_text"
+                    android:text="" />
+                <Button
+                    android:layout_marginTop="30dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/login_button"
+                    android:id="@+id/btndelete"
+                    android:text="Delete  User"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp" />
+            </LinearLayout>
+
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="visible" />
+</RelativeLayout>

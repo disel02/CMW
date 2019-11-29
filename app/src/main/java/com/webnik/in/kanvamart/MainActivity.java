@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity
         }
 
         Picasso.get()
-                .load("http://theextrastep.in/kanvamart/img/"+username+".jpg")
+                .load("http://disel.site/kanvamart/img/"+username+".jpg")
                 .resize(200, 200)
                 .centerCrop()
                 .into(ivdp, new Callback() {

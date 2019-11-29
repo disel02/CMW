@@ -9,7 +9,7 @@ import java.util.Map;
 
 public class AddPDFRequest extends StringRequest {
 
-    private static final String LOGIN_REQUEST_URL="http://theextrastep.in/kanvamart/addPDF.php";
+    private static final String LOGIN_REQUEST_URL="http://disel.site/kanvamart/addPDF.php";
     private Map<String,String> params;
 
     public AddPDFRequest(String username, String task, Response.Listener<String> listener){

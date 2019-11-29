@@ -9,7 +9,7 @@ import java.util.Map;
 
 public class ChpassRequest extends StringRequest {
 
-    private static final String LOGIN_REQUEST_URL="http://theextrastep.in/kanvamart/chpass.php";
+    private static final String LOGIN_REQUEST_URL="http://disel.site/kanvamart/chpass.php";
     private Map<String,String> params;
 
     public ChpassRequest(String username, String oldpass, String new1pass, Response.Listener<String> listener){

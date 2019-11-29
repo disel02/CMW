@@ -9,7 +9,7 @@ import java.util.Map;
 
 public class TotalRequest2 extends StringRequest {
 
-    private static final String LOGIN_REQUEST_URL="http://theextrastep.in/kanvamart/total2.php";
+    private static final String LOGIN_REQUEST_URL="http://disel.site/kanvamart/total2.php";
     private Map<String,String> params;
 
     public TotalRequest2(String date, String username, Response.Listener<String> listener){

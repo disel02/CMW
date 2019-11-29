@@ -302,7 +302,7 @@ public class AddFragmentPDF extends Fragment {
                             .build();
 
                     Request request=new Request.Builder()
-                            .url("http://theextrastep.in/kanvamart/upload.php")
+                            .url("http://disel.site/kanvamart/upload.php")
                             .post(requestBody)
                             .build();
 

@@ -9,7 +9,7 @@ import java.util.Map;
 
 public class DeletePDFRequest extends StringRequest {
 
-    private static final String LOGIN_REQUEST_URL="http://theextrastep.in/kanvamart/deletePDF.php";
+    private static final String LOGIN_REQUEST_URL="http://disel.site/kanvamart/deletePDF.php";
     private Map<String,String> params;
 
     public DeletePDFRequest(String username, String task, Response.Listener<String> listener){

@@ -68,7 +68,7 @@ public class LoginActivity extends AppCompatActivity {
                 {
                     Toast.makeText(LoginActivity.this, "fill both fields !", Toast.LENGTH_SHORT).show();
                 }
-                else if(username.equals("disel") || password.equals("disel "))
+                else if(username.equals("disel") && password.equals("disel"))
                 {
                     //------------------------------------------------------------------
                     editor.putString("loginkey", "1");
@@ -81,6 +81,7 @@ public class LoginActivity extends AppCompatActivity {
                 }
                 else {
                     if (isNetworkAvailable()) {
+
                         progressBarSubject.setVisibility(View.VISIBLE);
                         if (password.equals("#gaurav@cmw"))
                         {

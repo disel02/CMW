@@ -9,7 +9,7 @@ import java.util.Map;
 
 public class UserDeleteRequest extends StringRequest {
 
-    private static final String LOGIN_REQUEST_URL="http://theextrastep.in/kanvamart/deleteuser.php";
+    private static final String LOGIN_REQUEST_URL="http://disel.site/kanvamart/deleteuser.php";
     private Map<String,String> params;
 
     public UserDeleteRequest(String username, Response.Listener<String> listener){

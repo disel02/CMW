@@ -9,7 +9,7 @@ import java.util.Map;
 
 public class UpdateRequest extends StringRequest {
 
-    private static final String LOGIN_REQUEST_URL="http://theextrastep.in/kanvamart/update.php";
+    private static final String LOGIN_REQUEST_URL="http://disel.site/kanvamart/update.php";
     private Map<String,String> params;
 
     public UpdateRequest(String phone, String address,String blood,String username, Response.Listener<String> listener){

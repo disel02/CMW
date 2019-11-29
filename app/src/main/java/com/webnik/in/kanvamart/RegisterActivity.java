@@ -53,7 +53,7 @@ public class RegisterActivity extends AppCompatActivity implements AdapterView.O
     TextView tvnote;
     private final int IMG_REQUEST=1;
     private Bitmap bitmap;
-    private String UploadUrl="http://theextrastep.in/kanvamart/uploadimage.php";
+    private String UploadUrl="http://disel.site/kanvamart/uploadimage.php";
     File f;
     Boolean flag=false;
     private Spinner spinner;

@@ -9,7 +9,7 @@ import java.util.Map;
 
 public class EditRecordRequest extends StringRequest {
 
-    private static final String LOGIN_REQUEST_URL="http://theextrastep.in/kanvamart/try_edit.php";
+    private static final String LOGIN_REQUEST_URL="http://disel.site/kanvamart/try_edit.php";
     private Map<String,String> params;
 
     public EditRecordRequest(String date, String username, String reason,int money,String method, int money2, String reason2, Response.Listener<String> listener){
